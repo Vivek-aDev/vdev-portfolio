@@ -1,0 +1,161 @@
+/* .contact {
+  padding: 5rem 2rem;
+  background-color: #f8f9fa;
+  color: #111;
+
+  h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #0f2027;
+  }
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  input,
+  textarea {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+
+    &:focus {
+      border-color: #00bcd4;
+    }
+  }
+
+  button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0097a7;
+    }
+  }
+
+  .success {
+    margin-top: 1rem;
+    color: green;
+    font-weight: 500;
+    text-align: center;
+  }
+} */
+
+.contact {
+  padding: 5rem 2rem;
+  background-color: #f8f9fa;
+  color: #111;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #0f2027;
+}
+
+.illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}
+
+.formContainer {
+  flex: 1;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.formContainer h2 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #0f2027;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #00bcd4;
+}
+
+.form button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0097a7;
+}
+
+.success {
+  margin-top: 1rem;
+  color: green;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+}
